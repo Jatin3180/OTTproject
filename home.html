@@ -42,6 +42,12 @@
           }
         
     </style>
+    <script>
+        function func(){
+            //console.log(window.location.port)
+            window.location.href = window.location.protocol + "//" + window.location.host + "/index.html";
+        }
+    </script>
   
 </head>
 
@@ -54,10 +60,10 @@
             <span><img width="53" src="assets/images/logo.svg" alt=""></span>
             <div>
                 <span class="spanh">Hello,</span>
-                <span class="spanh">Ayush</span>
+                <span class="spanh">Ayush310</span>
                 <!-- <button class="btn">English</button> -->
               
-                <button class="btn btn-red-sm">Sign Out</button>
+                <button class="btn btn-red-sm" onclick="func()">Sign Out</button>
             </div>
         </nav>
         <div class="box">
